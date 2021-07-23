@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SGPA: Structure-Guided Prior Adaptation for Category-Level 6D Object Pose Estimation</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="">
+<meta name="keywords" content="TBD">
+<link rel="author" href="wangjiaze.cn">
+
+<!-- Fonts and stuff -->
+<link href="./public/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./public/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./public/iconize.css">
+<script async="" src="./public/prettify.js"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+
+     <div class="section head">
+		<h1>SGPA: Structure-Guided Prior Adaptation for Category-Level 6D Object Pose Estimation</h1>
+
+	<div class="authors">
+		<a href="">Kai Chen<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou<sup>1,2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+	</div>
+
+	<div class="affiliations">
+	  <a href="https://www.cse.cuhk.edu.hk/">CSE, The Chinese University of Hong Kong<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://ri.cuhk.edu.hk/">T Stone Robotics Institute, The Chinese University of Hong Kong<sup>2</sup></a>
+	</div>
+
+	<div class="venue">International Conference on Computer Vision (<a href="http://iccv2021.thecvf.com/" target="_blank">ICCV</a>) 2021
+	</div>
+</div>
+      <center><img src="./iccv21sgpa/teaser.PNG" border="0" width="90%"></center>
+
+<div class="section abstract">
+	<h2>Overview</h2>
+	<br>
+	<div class="justify-text-between">
+    Category-level 6D object pose estimation aims to predict the location and orientation for unseen objects, which plays a pillar role in many scenarios such as robotics and augmented reality. The significant intra-class variation is the bottleneck challenge in this task yet remains unsolved so far. In this paper, we take advantage of category prior to overcome this problem by innovating a structure-guided prior adaptation scheme to accurately estimate 6D pose for individual objects. Different from existing prior based methods, given one object and its corresponding category prior, we propose to leverage their structure similarity to dynamically adapt the prior to the observed object. The prior adaptation intrinsically associates the adopted prior with different objects, from which we can accurately reconstruct the specific object’s 3D canonical model for pose estimation. To further enhance the structure characteristic of objects, we extract low-rank structure points from the dense object point cloud, therefore more efficiently incorporating sparse structural information during prior adaptation. Extensive experiments on CAMERA25 and REAL275 benchmarks demonstrate significant performance improvement. On evaluation metrics of 3D75 and 5◦2cm, our method outperforms the current state-of-the-art SPD [24] by 2.6% and 12.6% on CAMERA25 and by 5.2% and 15.9% on REAL275.
+	</div>
+</div>
+
+<!--
+<div class="section demo">
+	<h2>Introduction Video</h2>
+		<br>
+		<center>
+			<iframe width="820" height="480" src="https://www.youtube.com/embed/B6hby8pgvjY" frameborder="0" allowfullscreen></iframe>
+		</video>
+		<br>
+		</center>
+</div>
+-->
+
+<div class="section materials">
+	<h2>Materials</h2>
+	<center>
+		<ul>
+          	<li class="grid">
+	      	<div class="griditem">
+			  <a href="" target="_blank" class="imageLink" >
+				<img src="./iccv21sgpa/iccv_paper.PNG"></a><br>
+				&nbsp &nbsp &nbsp <a href="" target="_blank"> Arxiv</a> /
+			  <a href="" target="_blank"> PDF</a>
+			</div>
+			</li>
+
+			<li class="grid">
+				<div class="griditem">
+			  <a href="" target="_blank" class="imageLink"><img src="./public/github_icon.png"></a><br>
+			<a href="" target="_blank">Codes</a>
+			</div>
+			</li>
+
+			<!-- <li class="grid">
+				<div class="griditem">
+				   <a href="" target="_blank"
+					   class="image-link">
+					   <img src="./common/github_icon.png">
+					   <br />
+					   <span class="text-primary abs-mg-top-ti">Code [Comming Soon]</span></a>
+			   </div>
+			</li> -->
+		</ul>
+	</center>
+</div>
+<br>
+
+
+<br>
+
+
+<div class="section citation">
+	<h2>Citation</h2>
+	<div class="section bibtex">
+<pre>@inproceedings{chen2021structure,
+title={SGPA: Structure-Guided Prior Adaptation for Category-Level 6D Object Pose Estimation},
+author={Chen, Kai and Dou, Qi},
+booktitle = {International Conference on Computer Vision},
+year={2021}
+}
+</pre>
+<br>
+	</div>
+</div>
+
+</body></html>
